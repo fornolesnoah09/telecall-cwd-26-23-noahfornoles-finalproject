@@ -1,0 +1,44 @@
+
+.sticky {
+    /* margin-top: 63px; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(17, 231, 81, 0.2);
+    outline: none;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: rgba(11, 202, 52, 0.212);
+    color: #000000;
+}
+
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #000000;
+    will-change: left, right;
+}
+
+.custom-page-tab {
+    padding-top: 20px;
+}
+
+.card-panel {
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    padding: 24px;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
