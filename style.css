@@ -11,12 +11,13 @@
 }
 
 .tabs .tab a:focus, .tabs .tab a:focus.active {
-    background-color: rgba(17, 231, 81, 0.2);
+    background-color: rgba(63, 63, 63, 0.719);
     outline: none;
+    color: white !important;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
-    background-color: rgba(11, 202, 52, 0.212);
+    background-color: rgba(206, 206, 206, 0.212);
     color: #000000;
 }
 
@@ -70,12 +71,53 @@
     
 /* } */
 
-#card-1 {
-    background-image: url('images/img-desk.jpg');
-    height: 400px;
+.custom-card-bg {
+    background: url('images/img-night-1.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 200px;
 }
 
-#card-2 {
-    background-image: url('images/img-forest.jpg');
-    height: 400px;
+#card-1 {
+    background: url('images/img-pens.jpg') no-repeat ;
+    background-size: cover;
+    color: white; 
 }
+
+/* #card-1 .card-text {
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+#card-2 {
+    background: url('images/img-camera.jpg') no-repeat;
+    background-size: cover;
+    color: white; 
+}
+
+#card-3 {
+    background: url('images/img-desk.jpg') no-repeat;
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.651); 
+}
+
+#card-4 {
+    background: url('images/img-desk-2.jpg') no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255); 
+}
+
+#card-5 {
+    background: url('images/img-desk-grid.jpg') no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255); 
+}
+
+#card-6 {
+    background: url('images/img-night-blur.jpg') no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255); 
+}
+
