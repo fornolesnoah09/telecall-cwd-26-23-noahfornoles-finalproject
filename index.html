@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="custom-gradient-bg">
     <!-- navbar structure -->
-    <nav class="grey darken-3">
+    <nav class="custom-gradient-bg">
         <div class="container">
             <div class="nav-wrapper">
                 <!-- logo icon-->
-                <a href="#" target="_blank" class="brand-logo">
+                <a href="#" target="_blank" class="brand-logo black-text">
                     <!-- <i class="material-icons">camera</i>Noah -->
                     No_one
                 </a>
@@ -29,13 +29,13 @@
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li class="">
-                        <a href="#" target="_blank">Link 1</a>
+                        <a class="black-text" href="#" target="_blank">Link 1</a>
                     </li>
                     <li>
-                        <a href="#" target="_blank">Link 2</a>
+                        <a class="black-text" href="#" target="_blank">Link 2</a>
                     </li>
                     <li>
-                        <a href="#" target="_blank">Link 3</a>
+                        <a class="black-text" href="#" target="_blank">Link 3</a>
                     </li>
                 </ul>
             </div>
@@ -43,76 +43,52 @@
         </div>
     </nav>
 
-    <!-- <div class="row black" >
-        <div class="carousel">
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img1-colors-typography-1.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img2-colors-typography-2.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img3-table-media-1.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img4-table-media-2.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img5-table-media-3.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img6-table-media-4.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img7-table-media-5.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img8-navbar-1.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img9-navbar-2.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img10-buttons-1.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img11-buttons-2.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img12-grid-1.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img13-grid-2.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img14-grid-3.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img15-grid-4.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img16-grid-5.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img17-building-1.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img18-building-2.jpg"></a>
-            <a style="height: auto; width: 300px;" class="carousel-item" href=""><img src="images/img19-building-3.jpg"></a>
-        </div>
-    </div> -->
-
     <div class="parallax-container" style="height:400px;">
         <div class="parallax"><img class="" style="height: auto; width: 2000px;" src="images/img-night-1.jpg"></div>
     </div>
 
-    <div id="stickyTopDiv" class=" lighten-5">
+    <div id="stickyTopDiv" class="white darken-1">
         <div class="container">
-            <ul class="tabs grey lighten-5">
-                <li class="tab"><a href="#tasks" class="black-text active"><i class="fa-solid fa-camera"></i> Tasks</a></li>
-                <li class="tab"><a href="#test2" class="black-text ">Test 2</a></li>
-                <li class="tab"><a href="#test3" class="black-text ">Tab 3</a></li>
+            <ul class="tabs white darken-1">
+                <li class="tab"><a href="#my_works" class="black-text active"><i class="fa-solid fa-camera"></i> My Works</a></li>
+                <li class="tab"><a href="#inspirations" class="black-text ">Inspirations</a></li>
+                <li class="tab"><a href="#test3" class="black-text ">Favorites</a></li>
             </ul>
         </div>
     </div>
 
     <div id="content" class="container">
 
-        <div id="tasks" class="custom-page-tab col s12">
+        <div id="my_works" class="custom-page-tab col s12">
 
             <div class="row">
                 <div class="col s12 m6 l4">
                     <div id="card-1" class="card-panel hoverable custom-card-bg modal-trigger" href="#modal1">
-                        <h5 class="card-text">Colors and Typography</h5>
+                        <h5>Colors and Typography</h5>
                     </div>
                 </div>
                 <div class="col s12 m6 l4">
-                    <div id="card-2" class="card-panel hoverable custom-card-bg">
+                    <div id="card-2" class="card-panel hoverable custom-card-bg modal-trigger" href="#modal2">
                         <h5>Tables and Media</h5>
                     </div>
                 </div>
                 <div class="col s12 m6 l4">
-                    <div id="card-3" class="card-panel hoverable custom-card-bg">
+                    <div id="card-3" class="card-panel hoverable custom-card-bg modal-trigger" href="#modal3">
                         <h5>Navbar and Sidenav</h5>
                     </div>
                 </div>
                 <div class="col s12 m6 l4">
-                    <div id="card-4" class="card-panel hoverable custom-card-bg">
+                    <div id="card-4" class="card-panel hoverable custom-card-bg modal-trigger" href="#modal4">
                         <h5>Buttons</h5>
                     </div>
                 </div>
                 <div class="col s12 m6 l4">
-                    <div id="card-5" class="card-panel hoverable custom-card-bg">
+                    <div id="card-5" class="card-panel hoverable custom-card-bg modal-trigger" href="#modal5">
                         <h5>Grid System</h5>
                     </div>
                 </div>
                 <div class="col s12 m6 l4">
-                    <div id="card-6" class="card-panel hoverable custom-card-bg">
+                    <div id="card-6" class="card-panel hoverable custom-card-bg modal-trigger" href="#modal6">
                         <h5>Building Project Demo from Scratch</h5>
                     </div>
                 </div>
@@ -120,9 +96,18 @@
             </div>
         </div>
 
-        <div id="test2" class="custom-page-tab col s12">
-            <div class="row">
-
+        <div id="inspirations" class="custom-page-tab col s12">
+            <div class="row" >
+                <!-- <div class="slider">
+                    <ul class="slides" style="background-color: transparent">
+                      <li class="center"><img style="height: 100%; width: 500px;" class="responsive-img center" src="images/"></li>
+                      <li class="center"><img style="height: 100%; width: 500px;" class="responsive-img center" src="images/"></li>
+                      <li class="center"><img style="height: 100%; width: 500px;" class="responsive-img center" src="images/"></li>
+                      <li class="center"><img style="height: 100%; width: 500px;" class="responsive-img center" src="images"></li>
+                      <li class="center"><img style="height: 100%; width: 500px;" class="responsive-img center" src="images"></li>
+                      <li class="center"><img style="height: 100%; width: 500px;" class="responsive-img center" src="images/"></li>
+                    </ul>
+                </div> -->
             </div>
         </div>
 
@@ -142,35 +127,84 @@
         <div class="parallax"><img class="" style="height: auto; width: 2000px;" src="images/img-night-1.jpg"></div>
     </div>
 
-    <!-- Modal Structure -->
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <h4>Modal Title</h4>
-            <p>Modal content goes here.</p>
+    <div class="container">
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <!-- <div class="row" >
+            <div class="carousel">
+                <a class="carousel-item" href=""><img class="responsive-img" src="images/pic-typography.png"></a>
+                <a class="carousel-item" href=""><img class="responsive-img" src="images/pic-building.png"></a>
+                <a class="carousel-item" href=""><img class="responsive-img" src="images/pic-buttons.png"></a>
+                <a class="carousel-item" href=""><img class="responsive-img" src="images/pic-grid.png"></a>
+                <a class="carousel-item" href=""><img class="responsive-img" src="images/pic-navbar.png"></a>
+                <a class="carousel-item" href=""><img class="responsive-img" src="images/pic-tables-media.png"></a>
             </div>
-            <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div> -->
+        <br><br><br><br><br>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal custom-gradient-bg">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="fa-solid fa-close"></i></a>
+        <div class="modal-content">
+            <h5>Colors and Typography</h5>
+            <img src="images/pic-typography.png" class="responsive-img center materialboxed">
+        </div>
+    </div>
+
+    <div id="modal2" class="modal custom-gradient-bg">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="fa-solid fa-close"></i></a>
+        <div class="modal-content">
+            <h5>Tables and Media</h5>
+            <img src="images/pic-tables-media.png" class="responsive-img center materialboxed">
+        </div>
+    </div>
+
+    <div id="modal3" class="modal custom-gradient-bg">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="fa-solid fa-close"></i></a>
+        <div class="modal-content">
+            <h5>Navbar and Sidenav</h5>
+            <img src="images/pic-navbar.png" class="responsive-img center materialboxed">
         </div>
     </div>
     
+    <div id="modal4" class="modal custom-gradient-bg">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="fa-solid fa-close"></i></a>
+        <div class="modal-content">
+            <h5>Buttons</h5>
+            <img src="images/pic-buttons.png" class="responsive-img center materialboxed">
+        </div>
+    </div>
+    
+    <div id="modal5" class="modal custom-gradient-bg">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="fa-solid fa-close"></i></a>
+        <div class="modal-content">
+            <h5>Grid System</h5>
+            <img src="images/pic-grid.png" class="responsive-img center materialboxed">
+        </div>
+    </div>
+    
+    <div id="modal6" class="modal custom-gradient-bg">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat right"><i class="fa-solid fa-close"></i></a>
+        <div class="modal-content">
+            <h5>Building Project Demo from Scratch</h5>
+            <img src="images/pic-building.png" class="responsive-img center materialboxed">
+        </div>
+    </div>
+    
+    
     <!-- sidenav structure -->
     <ul class="sidenav" id="mobile-demo">
-        <li class="active">
-            <a href="#" target="_blank">Link 1</a>
-        </li>
-        <li>
-            <a href="#" target="_blank">Link 2</a>
-        </li>
-        <li>
-            <a href="#" target="_blank">Link 3</a>
-        </li>
+        <li class="active"><a href="#" target="_blank">Link 1</a></li>
+        <li><a href="#" target="_blank">Link 2</a></li>
+        <li><a href="#" target="_blank">Link 3</a></li>
     </ul>
 
 
 
 
 
-    <div style="height: 1000px"></div>
+    <!-- <div style="height: 1000px"></div> -->
 
     <!-- jquery link -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -223,7 +257,7 @@
                 outDuration: 300,
             });
             $('.slider').slider({
-                height: 400,
+                height: 500,
                 duration: 500,
                 interval: 3000
             });
